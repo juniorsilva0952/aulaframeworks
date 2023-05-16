@@ -6,17 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
-  nome = 'Sara'
-  count = 10;
+ nome = 'Emely';
+ count = 10;
 
-  menos (){
-  this.count = this.count--;
-}
 
-mais () {
-  this.count = this.count++;
-
+  menos() {
+    console.log(this.count--);
+    this.count = this.count --;
+   
+   
  }
 
+   mais() {
+    console.log(this.count++);
+    this.count = this.count ++;
+
+ }
 }
+   
+
