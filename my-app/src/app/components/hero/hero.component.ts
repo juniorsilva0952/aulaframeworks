@@ -1,5 +1,5 @@
+import { Hero } from './../../hero';
 import { Component } from '@angular/core';
-import { Hero } from 'src/app/hero';
 
 @Component({
   selector: 'app-hero',
@@ -8,13 +8,20 @@ import { Hero } from 'src/app/hero';
 })
 export class HeroComponent {
 
-  vetor = [1, 5, 13, 24];
+  vetor = [1, 5, 13, 24]
 
-  heroes = ["miranha", "homem d ferro", "dr estranho", "thanos"];
+  hero_name = ''
+
+  heroes = ["Thor", "Homem de Ferro", "Visão", "Thanos"];
+
+  vetorAna = [1, 2, 3, 4, 5, 6, 7]
 
   hero: Hero = {
-    id:1,
-    nome: "Capitão America",
+    id: 1,
+    nome: "Capitão América"
   }
+
+
+
 
 }

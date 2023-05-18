@@ -5,18 +5,23 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
+// git config --global user.email "beto@beto.com.br"
+
 export class AppComponent {
-  title = 'my-app';
-  nome = 'Sara'
+  nome = 'Beto';
   count = 10;
 
-  menos (){
-  this.count = this.count--;
-}
+  vetor = [10, 20, 30, 40, 50]
 
-mais () {
-  this.count = this.count++;
 
- }
+   menos(){
+    this.count--;
+  }
+
+  mais(){
+    this.count++;
+  }
 
 }
