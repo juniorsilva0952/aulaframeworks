@@ -11,18 +11,18 @@
   margin: 0 auto;
   display: grid;
   place-items: center;
-  background-image: url("https://img.freepik.com/fotos-gratis/fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner_1258-52379.jpg");
+  background-image: url("https://image.winudf.com/v2/image1/Y29tLm1vdmluZy53YWxscGFwZXJzLnB1cnBsZS5saXZlLndhbGxwYXBlcl9zY3JlZW5fMV8xNTU0Mjk1Mjc0XzA4MA/screen-1.webp?fakeurl=1&type=.webp");
 }
 
 .container .form-group {
   width: 700px;
   height: 500px;
-  background: rgb(95, 138, 217);
+  background: rgb(199, 95, 217);
   display: grid;
   grid-template-columns: 200px 1fr;
   align-items: center;
   padding: 50px;
-  box-shadow: 0px 0px 20px 2px #4fb0f1;
+  box-shadow: 0px 0px 20px 2px #daa1eb;
   border-radius: 30px;
   animation: fade-in 1s ease-in-out;
 }
@@ -34,8 +34,8 @@
   margin-bottom: 20px;
   border-radius: 20px;
   border: none;
-  box-shadow: 2px 2px 10px #092a45;
-  background: linear-gradient(60deg, #7db7dd, #3366dd);
+  box-shadow: 2px 2px 10px #3c0945;
+  background: linear-gradient(60deg, #dd7dda, #ad33dd);
   color: #fff;
   cursor: pointer;
   margin: 10px;
