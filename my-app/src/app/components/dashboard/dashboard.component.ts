@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { TaskComponent } from '../task/task.component';
 
 @Component({
   selector: 'app-dashboard',
@@ -9,11 +10,15 @@ import { Router } from '@angular/router';
 export class DashboardComponent {
 
   constructor(private router: Router) { }
+tasks = [];
 
   addTask(){
     console.log('add task');
 
-    this.router.navigateByUrl('/task')
+    this.router.navigateByUrl('/task',{ 
+      state: this.tasks,
+    }).catch
+    console.log('Erro ao navegar para a página de task');
   }
 
 }
